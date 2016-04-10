@@ -1,4 +1,4 @@
-错误：Git – fatal: Unable to create ‘/path/my_project/.git/index.lock’: File exists.
+﻿错误：Git – fatal: Unable to create ‘/path/my_project/.git/index.lock’: File exists.
 
 可以试着删除 index.lock   rm -f ./.git/index.lock
 
@@ -6,3 +6,5 @@
 clone 用来复制一个版本库
 
 pull和push只对更新起作用
+
+远程仓库的改动要先merge到本地，才能push
