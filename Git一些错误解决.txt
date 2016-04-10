@@ -7,4 +7,4 @@ clone 用来复制一个版本库
 
 pull和push只对更新起作用
 
-远程仓库的改动要先merge到本地，才能push
+远程仓库的改动要先merge，pull到本地，才能push
